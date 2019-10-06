@@ -49,8 +49,8 @@ InitShader(const char* vShaderFile, const char* fShaderFile)
 		const char* filename;
 		GLenum       type;
 		GLchar* source;
-	}  
-	
+	}
+
 	shaders[2] = {
 		{ vShaderFile, GL_VERTEX_SHADER, NULL },
 		{ fShaderFile, GL_FRAGMENT_SHADER, NULL }
