@@ -158,7 +158,12 @@ C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTrave
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): warning C4477:         ]
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): message :  consider using '%lli' in the format string
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): message :  consider using '%I64i' in the format string
-  SpaceTravelQuadTree.vcxproj -> C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\Debug\SpaceTravelQuadTree.exe
+  Generating code
+  1 of 217 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SpaceTravelQuadTree.vcxproj -> C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\Release\SpaceTravelQuadTree.exe
   C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\GL\x86\bin\glew32.dll
   C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\GL\x86\bin\glew32mx.dll
   C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\GL\x86\bin\glfw3.dll
