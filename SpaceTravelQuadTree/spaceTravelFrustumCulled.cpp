@@ -236,7 +236,7 @@ void setup(void)
 	float initialSize;
 	// create meory for each potential asteroid
 	arrayAsteroids = new Asteroid * [ROWS];
-	for (int i = 0; i < ROWS; i++) {
+	for (i = 0; i < ROWS; i++) {
 		arrayAsteroids[i] = new Asteroid[COLUMNS];
 	}
 
@@ -262,7 +262,9 @@ void setup(void)
 	// Initialize global arrayAsteroids.
 	for (j = 0; j < COLUMNS; j++)
 		for (i = 0; i < ROWS; i++)
-			if (rand() % 100 < FILL_PROBABILITY)
+
+			// This check is superfulous if FILL_PROBABILITY is < 100. Compiler should remove the line if so
+			if (FILL_PROBABILITY >= 100 || rand() % 100 < FILL_PROBABILITY)
 				// If rand()%100 >= FILL_PROBABILITY the default constructor asteroid remains in the slot which
 				// indicates that there is no asteroid there because the default's radius is 0.
 			{

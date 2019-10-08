@@ -7,6 +7,9 @@ Log of Improvements Made:
 Initial Commit
     Added base, misbehaving code
 Added Timer
-    Added a basic timer to get rough delta time and startup time data
-    Fixed shader loading and release mode compiling
-    Realigned a lot of the code
+    StartupTime: 4279ms
+    UpdateTime: 450ms
+    ActiveOctreeUpdateTime: 12ms
+        Added a basic timer to get rough delta time and startup time data
+        Fixed shader loading and release mode compiling
+        Realigned a lot of the code

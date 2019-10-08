@@ -121,45 +121,45 @@ C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTrave
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:         [
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:             T=float
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(273,76): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(273,43): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(281,83): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(281,43): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(292,44): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(349,1): warning C4305:  'argument': truncation from 'double' to 'float'
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(347,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(346,36): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(358,6): warning C4101:  'i': unreferenced local variable
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(430,25): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(487,35): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(487,19): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(275,76): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(275,43): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(283,83): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(283,43): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(294,44): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(351,1): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(349,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(348,36): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(360,6): warning C4101:  'i': unreferenced local variable
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(432,25): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(489,35): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(489,19): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(519,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(517,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(515,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(514,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(512,14): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(516,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(514,14): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(543,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(542,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(541,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(540,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(539,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(538,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(537,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(536,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(535,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(534,40): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(563,21): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(566,21): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(569,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(570,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(573,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(574,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): warning C4477:  'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type '_Rep'
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): warning C4477:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): warning C4477:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): warning C4477:             _Rep=__int64
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): warning C4477:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): message :  consider using '%lli' in the format string
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(648,9): message :  consider using '%I64i' in the format string
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(536,40): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(565,21): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(568,21): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(571,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(572,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(575,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(576,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:  'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type '_Rep'
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:         with
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:         [
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:             _Rep=__int64
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:         ]
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): message :  consider using '%lli' in the format string
+C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): message :  consider using '%I64i' in the format string
   Generating code
-  1 of 217 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+  2 of 217 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
