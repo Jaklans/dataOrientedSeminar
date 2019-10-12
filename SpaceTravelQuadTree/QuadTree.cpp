@@ -16,6 +16,7 @@ QuadtreeNode::QuadtreeNode(float x, float z, float s)
 	asteroidList.clear();
 }
 
+
 // Return the number of asteroids intersecting the square.
 int QuadtreeNode::numberAsteroidsIntersected()
 {

@@ -1,170 +1,192 @@
-﻿  spaceTravelFrustumCulled.cpp
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(92,8): warning C4101:  'c': unreferenced local variable
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(125,15): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:             T=float
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(275,76): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(275,43): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(283,83): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(283,43): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(294,44): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(351,1): warning C4305:  'argument': truncation from 'double' to 'float'
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(349,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(348,36): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(360,6): warning C4101:  'i': unreferenced local variable
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(432,25): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(489,35): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(489,19): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(519,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(517,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(516,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(514,14): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(543,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(542,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(541,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(540,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(539,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(538,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(537,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(536,40): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(565,21): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(568,21): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(571,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(572,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(575,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(576,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:  'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type '_Rep'
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:         with
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:         [
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:             _Rep=__int64
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): warning C4477:         ]
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): message :  consider using '%lli' in the format string
-C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(650,9): message :  consider using '%I64i' in the format string
+﻿  QuadTree.cpp
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(63,20): warning C4552:  '+': result of expression not used
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(91,21): warning C4018:  '<': signed/unsigned mismatch
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(116,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(123,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(128,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(221,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(230,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(58,57): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(62,70): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(62,51): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(66,83): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(66,64): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(66,40): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(70,70): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+  spaceTravelFrustumCulled.cpp
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(70,40): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(63,20): warning C4552:  '+': result of expression not used
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(91,21): warning C4018:  '<': signed/unsigned mismatch
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(116,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(123,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(128,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(221,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(230,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(92,8): warning C4101:  'c': unreferenced local variable
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(125,15): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(171,73): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(172,73): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(173,51): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(176,81): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(177,81): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(178,59): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(180,81): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(181,81): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(182,51): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(184,89): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(185,89): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(186,59): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(195,73): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(196,73): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(197,58): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(200,81): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,81): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(202,66): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(204,81): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(205,81): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(206,58): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(208,89): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(209,89): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:             T=float
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(210,66): warning C4244:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(275,76): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(275,43): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(283,83): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(283,43): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(352,1): warning C4305:  'argument': truncation from 'double' to 'float'
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(350,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(349,36): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(361,6): warning C4101:  'i': unreferenced local variable
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(433,25): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(494,35): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(494,19): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(524,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(522,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(521,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(519,14): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(548,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(547,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(546,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(545,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(544,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(543,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(542,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(541,44): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(570,21): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(573,21): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(576,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(577,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(580,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(581,19): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(655,9): warning C4477:  'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type '_Rep'
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(655,9): warning C4477:         with
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(655,9): warning C4477:         [
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(655,9): warning C4477:             _Rep=__int64
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(655,9): warning C4477:         ]
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(655,9): message :  consider using '%lli' in the format string
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(655,9): message :  consider using '%I64i' in the format string
   Generating code
-  2 of 217 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+  3 of 136 functions ( 2.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  SpaceTravelQuadTree.vcxproj -> C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\Release\SpaceTravelQuadTree.exe
-  C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\GL\x86\bin\glew32.dll
-  C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\GL\x86\bin\glew32mx.dll
-  C:\Users\Jaklans\Source\Repos\dataOrientedSeminar\GL\x86\bin\glfw3.dll
+  SpaceTravelQuadTree.vcxproj -> Z:\IGMProfile\Desktop\DataOrientedSeminar\Release\SpaceTravelQuadTree.exe
+  Z:\IGMProfile\Desktop\DataOrientedSeminar\GL\x86\bin\glew32.dll
+  Z:\IGMProfile\Desktop\DataOrientedSeminar\GL\x86\bin\glew32mx.dll
+  Z:\IGMProfile\Desktop\DataOrientedSeminar\GL\x86\bin\glfw3.dll
   3 File(s) copied

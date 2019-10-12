@@ -3,9 +3,8 @@
 #define Asteroid_13389437
 #define PI 3.14159265
 #include <glm/glm.hpp>
+#include "Config.h"
 
-#define SPHERE_VERTEX_COUNT 288
-#define SPHERE_SIZE 5.0f
 
 // Asteroid class.
 class Asteroid

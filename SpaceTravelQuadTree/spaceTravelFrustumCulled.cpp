@@ -39,6 +39,7 @@
 #include "intersectionDetectionRoutines.h"
 #include "Asteroid.h"
 #include "QuadTree.h"
+#include "Config.h"
 
 #include <chrono>
 
@@ -48,12 +49,7 @@ using namespace std;
 #pragma comment ( lib, "glew32.lib" )
 #pragma comment ( lib, "glfw3.lib" )
 
-#define ROWS 100  // Number of rows of asteroids.
-#define COLUMNS 100 // Number of columns of asteroids.
-#define FILL_PROBABILITY 100 // Percentage probability that a particular row-column slot will be 
-// filled with an asteroid. It should be an integer between 0 and 100.
-#define WINDOW_X 1600
-#define WINDOW_Y 800
+
 
 // Globals.
 static int width, height; // Size of the OpenGL window.
@@ -63,11 +59,6 @@ static int isFrustumCulled = 0;
 static int isCollision = 0; // Is there collision between the spacecraft and an asteroid?
 
 
-// vertex counting for where everything goes in the global array
-// fixed number of vertices for cone and sphere
-#define CONE_VERTEX_COUNT 12
-#define LINE_VERTEX_COUNT 2
-// #define SPHERE_VERTEX_COUNT 288 // moved to Asteroids.h because asteroids draw themselves
 
 // initial indices where data starts getting drawn for different data types
 int cone_index = 0;
@@ -75,14 +66,14 @@ int line_index = cone_index + CONE_VERTEX_COUNT;
 int sphere_index = line_index + LINE_VERTEX_COUNT;
 
 // shader stuff
-glm::vec3 points[CONE_VERTEX_COUNT + LINE_VERTEX_COUNT + SPHERE_VERTEX_COUNT * ROWS * COLUMNS]; // addition of all rows/cols for asteroid vertices + spaceship vertices + line vertices  
+glm::vec3 points[CONE_VERTEX_COUNT + LINE_VERTEX_COUNT + SPHERE_VERTEX_COUNT]; // addition of all rows/cols for asteroid vertices + spaceship vertices + line vertices  
 GLuint  myShaderProgram;
 GLuint InitShader(const char* vShaderFile, const char* fShaderFile);
 GLuint	myBuffer;
 
 // the asteroids and quad tree from the initial program
-Asteroid** arrayAsteroids; // Global array of asteroids.
-Quadtree asteroidsQuadtree; // Global quadtree.
+Asteroid* arrayAsteroids; // Global array of asteroids.
+Quadtree2 asteroidsQuadtree; // Global quadtree.
 
 //static long font = (long)GLUT_BITMAP_8_BY_13; // Font selection.
 // Routine to draw a bitmap character string.
@@ -235,14 +226,11 @@ void setup(void)
 	int i, j;
 	float initialSize;
 	// create meory for each potential asteroid
-	arrayAsteroids = new Asteroid * [ROWS];
-	for (i = 0; i < ROWS; i++) {
-		arrayAsteroids[i] = new Asteroid[COLUMNS];
-	}
+	arrayAsteroids = new Asteroid[ROWS * COLUMNS];
 
 	// create the quad tree for the asteroids
-	asteroidsQuadtree.setRowsCols(ROWS, COLUMNS);
-	asteroidsQuadtree.setArray(arrayAsteroids);
+	//asteroidsQuadtree.setRowsCols(ROWS, COLUMNS);
+	//asteroidsQuadtree.setArray(arrayAsteroids);
 
 	// create the line for the middle of the screen
 	points[line_index].x = 0;
@@ -256,13 +244,14 @@ void setup(void)
 	glm::vec3 direction(0, 1, 0);
 	glm::vec3 apex(0, 10, 0);
 	CreateCone(direction, apex, 10, 5, 10, cone_index);
+	CreateSphere(SPHERE_SIZE, 0, 0, 0, sphere_index);
 
 	// create where the spheres are going in the field   
 	int index = sphere_index;
 	// Initialize global arrayAsteroids.
-	for (j = 0; j < COLUMNS; j++)
-		for (i = 0; i < ROWS; i++)
-
+	for (i = 0; i < ROWS; i++)
+		for (j = 0; j < COLUMNS; j++)
+		
 			// This check is superfulous if FILL_PROBABILITY is < 100. Compiler should remove the line if so
 			if (FILL_PROBABILITY >= 100 || rand() % 100 < FILL_PROBABILITY)
 				// If rand()%100 >= FILL_PROBABILITY the default constructor asteroid remains in the slot which
@@ -272,18 +261,18 @@ void setup(void)
 				// so that the spacecraft faces the middle of the asteroid field.
 				if (COLUMNS % 2) // Odd number of columns. 
 				{
-					arrayAsteroids[i][j] = Asteroid(30.0 * (-COLUMNS / 2 + j), 0.0, -40.0 - 30.0 * i, 3.0,
+					arrayAsteroids[i * COLUMNS + j] = Asteroid(30.0 * (-COLUMNS / 2 + j), 0.0, -40.0 - 30.0 * i, 3.0,
 						rand() % 256, rand() % 256, rand() % 256);
-					arrayAsteroids[i][j].setIndex(index);
-					CreateSphere(SPHERE_SIZE, 0, 0, 0, index);
+					arrayAsteroids[i * COLUMNS + j].setIndex(index);
+					//CreateSphere(SPHERE_SIZE, 0, 0, 0, index);
 					index += SPHERE_VERTEX_COUNT;
 				}
 				else // Even number of columns. 
 				{
-					arrayAsteroids[i][j] = Asteroid(15.0 + 30.0 * (-COLUMNS / 2 + j), 0.0, -40.0 - 30.0 * i, 3.0,
+					arrayAsteroids[i * COLUMNS + j] = Asteroid(15.0 + 30.0 * (-COLUMNS / 2 + j), 0.0, -40.0 - 30.0 * i, 3.0,
 						rand() % 256, rand() % 256, rand() % 256);
-					arrayAsteroids[i][j].setIndex(index);
-					CreateSphere(SPHERE_SIZE, 0, 0, 0, index);
+					arrayAsteroids[i * COLUMNS + j].setIndex(index);
+					//CreateSphere(SPHERE_SIZE, 0, 0, 0, index);
 					index += SPHERE_VERTEX_COUNT;
 				}
 			}
@@ -291,7 +280,9 @@ void setup(void)
 	// Initialize global asteroidsQuadtree - the root square bounds the entire asteroid field.
 	if (ROWS <= COLUMNS) initialSize = (COLUMNS - 1) * 30.0 + 6.0;
 	else initialSize = (ROWS - 1) * 30.0 + 6.0;
-	asteroidsQuadtree.initialize(-initialSize / 2.0, -37.0, initialSize);
+	//asteroidsQuadtree.initialize(-initialSize / 2.0, -37.0, initialSize);
+	asteroidsQuadtree.init(4, -15 * COLUMNS - 3, -43 - 30 * ROWS, initialSize);
+	//asteroidsQuadtree.populate(a)
 
 	// initialize the graphics
 	glEnable(GL_DEPTH_TEST);
@@ -342,13 +333,13 @@ int asteroidCraftCollision(float x, float z, float a)
 	int i, j;
 
 	// Check for collision with each asteroid.
-	for (j = 0; j < COLUMNS; j++)
-		for (i = 0; i < ROWS; i++)
-			if (arrayAsteroids[i][j].getRadius() > 0) // If asteroid exists.
+	for (i = 0; i < ROWS; i++)
+		for (j = 0; j < COLUMNS; j++)
+			if (arrayAsteroids[i * COLUMNS + j].getRadius() > 0) // If asteroid exists.
 				if (checkSpheresIntersection(x - 5 * sin((PI / 180.0) * a), 0.0,
 					z - 5 * cos((PI / 180.0) * a), 7.072,
-					arrayAsteroids[i][j].getCenterX(), arrayAsteroids[i][j].getCenterY(),
-					arrayAsteroids[i][j].getCenterZ(), arrayAsteroids[i][j].getRadius()))
+					arrayAsteroids[i * COLUMNS + j].getCenterX(), arrayAsteroids[i * COLUMNS + j].getCenterY(),
+					arrayAsteroids[i * COLUMNS + j].getCenterZ(), arrayAsteroids[i * COLUMNS + j].getRadius()))
 					return 1;
 	return 0;
 }
@@ -450,15 +441,19 @@ void drawScene(void)
 	if (!isFrustumCulled)
 	{
 		// Draw all the asteroids in arrayAsteroids.
-		for (j = 0; j < COLUMNS; j++)
-			for (i = 0; i < ROWS; i++)
-				arrayAsteroids[i][j].draw();
+		for (i = 0; i < ROWS; i++)
+			for (j = 0; j < COLUMNS; j++)
+				arrayAsteroids[i * COLUMNS + j].draw();
 	}
 	else
 	{
 		// Draw only asteroids in leaf squares of the quadtree that intersect the fixed frustum
 		// with apex at the origin.
-		asteroidsQuadtree.drawAsteroids(-5.0, -5.0, -250.0, -250.0, 250.0, -250.0, 5.0, -5.0);
+		asteroidsQuadtree.drawQuadtreeItems(
+			-5.0, -5.0,
+			-250.0, -250.0,
+			250.0, -250.0,
+			5.0, -5.0);
 	}
 
 	// off is white spaceship and on it red
@@ -524,16 +519,16 @@ void drawScene(void)
 	if (!isFrustumCulled)
 	{
 		// Draw all the asteroids in arrayAsteroids.
-		for (j = 0; j < COLUMNS; j++)
-			for (i = 0; i < ROWS; i++)
-				arrayAsteroids[i][j].draw();
+		for (i = 0; i < ROWS; i++)
+			for (j = 0; j < COLUMNS; j++)
+				arrayAsteroids[i * COLUMNS + j].draw();
 	}
 	else
 	{
 		// Draw only asteroids in leaf squares of the quadtree that intersect the frustum
 		// "carried" by the spacecraft with apex at its tip and oriented with its axis
 		// along the spacecraft's axis.
-		asteroidsQuadtree.drawAsteroids(xVal - 7.072 * sin((PI / 180.0) * (45.0 + angle)),
+		asteroidsQuadtree.drawQuadtreeItems(xVal - 7.072 * sin((PI / 180.0) * (45.0 + angle)),
 			zVal - 7.072 * cos((PI / 180.0) * (45.0 + angle)),
 			xVal - 353.6 * sin((PI / 180.0) * (45.0 + angle)),
 			zVal - 353.6 * cos((PI / 180.0) * (45.0 + angle)),

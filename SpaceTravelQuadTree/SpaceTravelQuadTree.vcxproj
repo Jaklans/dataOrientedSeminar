@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Asteroid.h" />
+    <ClInclude Include="Config.h" />
     <ClInclude Include="intersectionDetectionRoutines.h" />
     <ClInclude Include="QuadTree.h" />
   </ItemGroup>
