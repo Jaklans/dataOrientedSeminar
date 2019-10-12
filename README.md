@@ -13,3 +13,10 @@ Added Timer
         Added a basic timer to get rough delta time and startup time data
         Fixed shader loading and release mode compiling
         Realigned a lot of the code
+Fixed Astroid Array
+    StartupTime: untested 
+    UpdateTime: untested
+    ActiveOctreeUpdateTime: untested
+        Fixed astroids to use a flat array
+        Fixed array traversal to be row major
+        Broke everything else!

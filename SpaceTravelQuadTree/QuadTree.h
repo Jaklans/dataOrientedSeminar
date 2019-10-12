@@ -3,6 +3,7 @@
 
 #include <list>
 #include "Asteroid.h"
+#include "GL/glew.h"
 
 using namespace std;
 
@@ -33,9 +34,9 @@ private:
 	Asteroid **arrayAsteroids; // Global array of asteroids.
    float SWCornerX, SWCornerZ; // x and z co-ordinates of the SW corner of the square.
    float size; // Side length of square.
-   QuadtreeNode *SWChild, *NWChild, *NEChild, *SEChild; // Children nodes.
-   list<Asteroid> asteroidList; // Local list of asteroids intersecting the square - only filled for leaf nodes.
-   friend class Quadtree;
+QuadtreeNode* SWChild, * NWChild, * NEChild, * SEChild; // Children nodes.
+list<Asteroid> asteroidList; // Local list of asteroids intersecting the square - only filled for leaf nodes.
+friend class Quadtree;
 };
 
 struct Quadtree2 {
@@ -43,14 +44,14 @@ struct Quadtree2 {
 		float x, z, size;
 	};
 	struct nodeData {
-		Asteroid asteroids[4];
+		Asteroid* asteroids[10];
 		size_t count;
 	};
 
 	//dimension treeDimensions;
 
 	dimension* dimensions;
-	nodeData* objects; 
+	nodeData* objects;
 	int levelCount;
 
 	void init(int depth, float minx, float minz, float size) {
@@ -72,6 +73,26 @@ struct Quadtree2 {
 		delete[] dimensions;
 	}
 
+	void drawDebug(glm::vec3* verticies) {
+		int max = ((1 << (2 * levelCount)) - 1) / 3;
+		for (int i = 0; i < 5; i++) {
+			verticies[i].y = 0;
+		}
+		for (int i = 0; i < max; i++) {
+			verticies[0].x = dimensions[i].x;
+			verticies[0].z = dimensions[i].z;
+			verticies[1].x = dimensions[i].x+dimensions[i].size;
+			verticies[1].z = dimensions[i].z;
+			verticies[2].x = dimensions[i].x + dimensions[i].size;
+			verticies[2].z = dimensions[i].z + dimensions[i].size;
+			verticies[3].x = dimensions[i].x;
+			verticies[3].z = dimensions[i].z + dimensions[i].size;
+			verticies[4].x = dimensions[i].x;
+			verticies[4].z = dimensions[i].z;
+			glDrawArrays(GL_LINE_STRIP, LINE_VERTEX_COUNT + CONE_VERTEX_COUNT + SPHERE_VERTEX_COUNT, 5);
+		}
+	}
+
 	// Structure  A1
 	//       B1 B2 B3 B4
 	//    C1 C2 C3 C4 C(5-16)
@@ -86,39 +107,44 @@ struct Quadtree2 {
 		for (int i = 0; i < count; i++) {
 			currentBranch = 0;
 			testingBranch = 1;
+			level = levelCount;
+
+			float x = items[i].x;
+			float z = items[i].z;
 
 			while (true) {
 				level--;
 				if (level <= 0) {
-					if (objects[currentBranch].count > 4) {
-						cout << "Error, out of space in subbranch!";
+					if (objects[currentBranch].count >= 10) {
+						//cout << "Error, out of space in subbranch!" << "\n";
 						//Fix for this would be to have overflow memory ready to go
+						//objects[currentBranch].count++;
 						break;
 					}
 					else {
-						objects[currentBranch].asteroids[objects[currentBranch].count++] = items[i];
+						objects[currentBranch].asteroids[objects[currentBranch].count++] = &items[i];
 						break;
 					}
-				} 
-				else if (items[i].getCenterX() + items[i].getRadius() < dimensions[currentBranch].x + dimensions[currentBranch].size / 2.0f) {
-					if (items[i].getCenterZ() + items[i].getRadius() < dimensions[currentBranch].z + dimensions[currentBranch].size / 2.0f) {
+				}
+				else if (items[i].x + items[i].radius < dimensions[currentBranch].x + dimensions[currentBranch].size / 2.0f) {
+					if (items[i].z + items[i].radius < dimensions[currentBranch].z + dimensions[currentBranch].size / 2.0f) {
 						// Top Left
 						currentBranch += 1;
 						continue;
 					}
-					else if (items[i].getCenterZ() - items[i].getRadius() > dimensions[currentBranch].z + dimensions[currentBranch].size / 2.0f) {
+					else if (items[i].z - items[i].radius > dimensions[currentBranch].z + dimensions[currentBranch].size / 2.0f) {
 						// Bottom Left
 						currentBranch += 1 + 2 * ((1 << (2 * level)) - 1) / 3;
 						continue;
 					}
 				}
-				else if (items[i].getCenterX() + items[i].getRadius() < dimensions[currentBranch].x + dimensions[currentBranch].size / 2.0f) {
-					if (items[i].getCenterZ() + items[i].getRadius() < dimensions[currentBranch].z + dimensions[currentBranch].size / 2.0f) {
+				else if (items[i].x + items[i].radius < dimensions[currentBranch].x + dimensions[currentBranch].size / 2.0f) {
+					if (items[i].z + items[i].radius < dimensions[currentBranch].z + dimensions[currentBranch].size / 2.0f) {
 						// Top Right
 						currentBranch += 1 + 1 * ((1 << (2 * level)) - 1) / 3;
 						continue;
 					}
-					else if (items[i].getCenterZ() - items[i].getRadius() > dimensions[currentBranch].z + dimensions[currentBranch].size / 2.0f) {
+					else if (items[i].z - items[i].radius > dimensions[currentBranch].z + dimensions[currentBranch].size / 2.0f) {
 						// Bottom Right
 						currentBranch += 1 + 3 * ((1 << (2 * level)) - 1) / 3;
 						continue;
@@ -128,6 +154,10 @@ struct Quadtree2 {
 					level = 0;
 				}
 			}
+		}
+		int max = ((1 << (2 * levelCount)) - 1) / 3;
+		for (int i = 0; i < max; i++){
+			cout << objects[i].count << "\n";
 		}
 	}
 
@@ -209,10 +239,13 @@ struct Quadtree2 {
 		if (c == 4) c2++;
 
 
-		if (c2 == 4 || depth < 1) {
+		if (c2 == 4 || depth <= 1) {
 			drawAllChildren(branch, depth);
 		}
 		else {
+			for (size_t i = 0; i < objects[branch].count; i++) {
+				objects[branch].asteroids[i]->draw();
+			}
 			size_t childOffset = ((1 << (2 * depth)) - 1) / 3;
 			drawQuadtreeItems(f1nx, f1nz, f1nd, f2nx, f2nz, f2nd, f3nx, f3nz, f3nd1, f3nd2, --depth, ++branch);
 			drawQuadtreeItems(f1nx, f1nz, f1nd, f2nx, f2nz, f2nd, f3nx, f3nz, f3nd1, f3nd2, depth, branch + childOffset);
@@ -222,10 +255,10 @@ struct Quadtree2 {
 	}
 
 	void drawAllChildren(size_t index, int depth) {
-		size_t count = 4 * (1 << (2 * (levelCount - depth)) - 1) / 3;
+		size_t count = 4 * ((1 << (2 * depth)) - 1) / 3;
 		for (size_t i = 0; i < count; i++) {
 			for(size_t j = 0; j < objects[i + index].count; i++)
-			objects[i + index].asteroids->draw();
+				objects[index].asteroids[j]->draw();
 		}
 	}
 

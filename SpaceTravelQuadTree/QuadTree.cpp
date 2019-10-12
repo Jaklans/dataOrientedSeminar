@@ -24,10 +24,10 @@ int QuadtreeNode::numberAsteroidsIntersected()
 	int i, j;
 	for (j = 0; j < cols; j++)
 		for (i = 0; i < rows; i++)
-			if (arrayAsteroids[i][j].getRadius() > 0.0)
+			if (arrayAsteroids[i][j].radius> 0.0)
 				if (checkDiscRectangleIntersection(SWCornerX, SWCornerZ, SWCornerX + size, SWCornerZ - size,
-					arrayAsteroids[i][j].getCenterX(), arrayAsteroids[i][j].getCenterZ(),
-					arrayAsteroids[i][j].getRadius())
+					arrayAsteroids[i][j].x, arrayAsteroids[i][j].z,
+					arrayAsteroids[i][j].radius)
 					)
 					numVal++;
 	return numVal;
@@ -39,10 +39,10 @@ void QuadtreeNode::addIntersectingAsteroidsToList()
 	int i, j;
 	for (j = 0; j < cols; j++)
 		for (i = 0; i < rows; i++)
-			if (arrayAsteroids[i][j].getRadius() > 0.0)
+			if (arrayAsteroids[i][j].radius > 0.0)
 				if (checkDiscRectangleIntersection(SWCornerX, SWCornerZ, SWCornerX + size, SWCornerZ - size,
-					arrayAsteroids[i][j].getCenterX(), arrayAsteroids[i][j].getCenterZ(),
-					arrayAsteroids[i][j].getRadius())
+					arrayAsteroids[i][j].x, arrayAsteroids[i][j].z,
+					arrayAsteroids[i][j].radius)
 					)
 					asteroidList.push_back(Asteroid(arrayAsteroids[i][j]));
 }

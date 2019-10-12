@@ -66,7 +66,7 @@ int line_index = cone_index + CONE_VERTEX_COUNT;
 int sphere_index = line_index + LINE_VERTEX_COUNT;
 
 // shader stuff
-glm::vec3 points[CONE_VERTEX_COUNT + LINE_VERTEX_COUNT + SPHERE_VERTEX_COUNT]; // addition of all rows/cols for asteroid vertices + spaceship vertices + line vertices  
+glm::vec3 points[CONE_VERTEX_COUNT + LINE_VERTEX_COUNT + SPHERE_VERTEX_COUNT + 5]; // addition of all rows/cols for asteroid vertices + spaceship vertices + line vertices  
 GLuint  myShaderProgram;
 GLuint InitShader(const char* vShaderFile, const char* fShaderFile);
 GLuint	myBuffer;
@@ -263,7 +263,6 @@ void setup(void)
 				{
 					arrayAsteroids[i * COLUMNS + j] = Asteroid(30.0 * (-COLUMNS / 2 + j), 0.0, -40.0 - 30.0 * i, 3.0,
 						rand() % 256, rand() % 256, rand() % 256);
-					arrayAsteroids[i * COLUMNS + j].setIndex(index);
 					//CreateSphere(SPHERE_SIZE, 0, 0, 0, index);
 					index += SPHERE_VERTEX_COUNT;
 				}
@@ -271,7 +270,6 @@ void setup(void)
 				{
 					arrayAsteroids[i * COLUMNS + j] = Asteroid(15.0 + 30.0 * (-COLUMNS / 2 + j), 0.0, -40.0 - 30.0 * i, 3.0,
 						rand() % 256, rand() % 256, rand() % 256);
-					arrayAsteroids[i * COLUMNS + j].setIndex(index);
 					//CreateSphere(SPHERE_SIZE, 0, 0, 0, index);
 					index += SPHERE_VERTEX_COUNT;
 				}
@@ -281,8 +279,8 @@ void setup(void)
 	if (ROWS <= COLUMNS) initialSize = (COLUMNS - 1) * 30.0 + 6.0;
 	else initialSize = (ROWS - 1) * 30.0 + 6.0;
 	//asteroidsQuadtree.initialize(-initialSize / 2.0, -37.0, initialSize);
-	asteroidsQuadtree.init(4, -15 * COLUMNS - 3, -43 - 30 * ROWS, initialSize);
-	//asteroidsQuadtree.populate(a)
+	asteroidsQuadtree.init(6, -15 * COLUMNS - 3, -43 - 30 * ROWS, initialSize);
+	asteroidsQuadtree.populate(arrayAsteroids, COLUMNS * ROWS);
 
 	// initialize the graphics
 	glEnable(GL_DEPTH_TEST);
@@ -335,11 +333,11 @@ int asteroidCraftCollision(float x, float z, float a)
 	// Check for collision with each asteroid.
 	for (i = 0; i < ROWS; i++)
 		for (j = 0; j < COLUMNS; j++)
-			if (arrayAsteroids[i * COLUMNS + j].getRadius() > 0) // If asteroid exists.
+			if (arrayAsteroids[i * COLUMNS + j].radius > 0) // If asteroid exists.
 				if (checkSpheresIntersection(x - 5 * sin((PI / 180.0) * a), 0.0,
 					z - 5 * cos((PI / 180.0) * a), 7.072,
-					arrayAsteroids[i * COLUMNS + j].getCenterX(), arrayAsteroids[i * COLUMNS + j].getCenterY(),
-					arrayAsteroids[i * COLUMNS + j].getCenterZ(), arrayAsteroids[i * COLUMNS + j].getRadius()))
+					arrayAsteroids[i * COLUMNS + j].x, arrayAsteroids[i * COLUMNS + j].y,
+					arrayAsteroids[i * COLUMNS + j].z, arrayAsteroids[i * COLUMNS + j].radius))
 					return 1;
 	return 0;
 }
@@ -516,6 +514,8 @@ void drawScene(void)
 		1.0,
 		0.0);
 
+	asteroidsQuadtree.drawDebug(&points[LINE_VERTEX_COUNT + CONE_VERTEX_COUNT + SPHERE_VERTEX_COUNT]);
+
 	if (!isFrustumCulled)
 	{
 		// Draw all the asteroids in arrayAsteroids.
@@ -664,15 +664,16 @@ int main(int argc, char** argv)
 
 		if (5000 < timeSum) {
 			int averageDeltaTime = timeSum / frameCount;
-			printf("Completed %i frames, average delta %ims\n",
-				frameCount,
-				averageDeltaTime);
-			timeSum = 0;
-			frameCount = 0;
+			//printf("Completed %i frames, average delta %ims\n",
+			//	frameCount,
+			//	averageDeltaTime);
+			//timeSum = 0;
+			//frameCount = 0;
 		}
 		baseTime = newTime;
 	}
 
+	asteroidsQuadtree.cleanup();
 	glfwTerminate();
 
 	return 0;

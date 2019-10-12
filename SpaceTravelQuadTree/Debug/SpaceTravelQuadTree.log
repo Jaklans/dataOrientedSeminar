@@ -1,6 +1,15 @@
-﻿  spaceTravelFrustumCulled.cpp
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(86,21): warning C4018:  '<': signed/unsigned mismatch
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(225,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+﻿  QuadTree.cpp
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(107,21): warning C4018:  '<': signed/unsigned mismatch
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(58,57): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(62,70): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(62,51): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(66,83): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(66,64): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(66,40): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(70,70): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+  spaceTravelFrustumCulled.cpp
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.cpp(70,40): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\QuadTree.h(107,21): warning C4018:  '<': signed/unsigned mismatch
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(83,8): warning C4101:  'c': unreferenced local variable
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(116,15): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(162,73): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
@@ -125,19 +134,19 @@ Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustum
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(201,66): warning C4244:         ]
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(264,87): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(264,54): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(272,94): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(272,54): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(342,1): warning C4305:  'argument': truncation from 'double' to 'float'
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(340,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(339,36): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(351,6): warning C4101:  'i': unreferenced local variable
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(423,25): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(484,35): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(484,19): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(514,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(271,94): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(271,54): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(340,1): warning C4305:  'argument': truncation from 'double' to 'float'
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(338,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(337,36): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(349,6): warning C4101:  'i': unreferenced local variable
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(421,25): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(482,35): warning C4244:  'argument': conversion from 'double' to 'GLsizei', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(482,19): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(512,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(511,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(509,14): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(510,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(509,8): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(507,14): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(538,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(537,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(536,9): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
@@ -158,7 +167,9 @@ Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustum
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(645,9): warning C4477:             _Rep=__int64
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(645,9): warning C4477:         ]
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(645,9): message :  consider using '%lli' in the format string
+  Generating Code...
 Z:\IGMProfile\Desktop\DataOrientedSeminar\SpaceTravelQuadTree\spaceTravelFrustumCulled.cpp(645,9): message :  consider using '%I64i' in the format string
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
   SpaceTravelQuadTree.vcxproj -> Z:\IGMProfile\Desktop\DataOrientedSeminar\Debug\SpaceTravelQuadTree.exe
   Z:\IGMProfile\Desktop\DataOrientedSeminar\GL\x86\bin\glew32.dll
   Z:\IGMProfile\Desktop\DataOrientedSeminar\GL\x86\bin\glew32mx.dll

@@ -12,9 +12,9 @@ using namespace std;
 // Asteroid default constructor.
 Asteroid::Asteroid()
 {
-	centerX = 0.0;
-	centerY = 0.0;
-	centerZ = 0.0;
+	this->x = 0.0;
+	this->y = 0.0;
+	this->z = 0.0;
 	radius = 0.0; // Indicates no asteroid exists in the position.
 	color[0] = 0;
 	color[1] = 0;
@@ -25,9 +25,9 @@ Asteroid::Asteroid()
 Asteroid::Asteroid(float x, float y, float z, float r, unsigned char valueR,
 	unsigned char valueG, unsigned char valueB)
 {
-	centerX = x;
-	centerY = y;
-	centerZ = z;
+	this->x = x;
+	this->y = y;
+	this->z = z;
 	radius = r;
 	color[0] = valueR;
 	color[1] = valueG;
@@ -40,7 +40,7 @@ void Asteroid::draw()
 	if (radius > 0.0) // If asteroid exists.
 	{
 		glPushMatrix();
-		glTranslatef(centerX, centerY, centerZ);
+		glTranslatef(x, y, z);
 		//glScalef(0.0125 * radius, 0.0125 * radius, 0.0125 * radius);
 		glColor3ubv(color);
 
